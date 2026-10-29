@@ -1,0 +1,14 @@
+{
+  "clean_initialization_passed": true,
+  "sqlite_tests": 24,
+  "sqlite_tests_passed": true,
+  "runtime_files_permissions": "0600",
+  "runtime_files_ignored": true,
+  "reference_directory_needed": false,
+  "frontend_typecheck_passed": true,
+  "frontend_build_passed": true,
+  "installed_python_dependencies_consistent": true,
+  "frontend_frozen_lockfile_check_passed": true,
+  "dependency_reinstallation_tested": false,
+  "remote_repository_changed": false
+}

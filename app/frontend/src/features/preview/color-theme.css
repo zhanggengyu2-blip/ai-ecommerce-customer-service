@@ -1,0 +1,55 @@
+/* Element Plus mounts selects, calendars and messages under body. Map its tokens
+   to the same palette used by the app so those popups inherit the chosen theme. */
+:root:has(.pv-app), :root:has(.live-workspace), :root:has(.live-login), :root:has(.customer-shell), .pv-app, .wb-dialog, .wb-history-drawer {
+  --el-color-primary: var(--wb-accent);
+  --el-color-primary-light-3: #847eed;
+  --el-color-primary-light-5: #a7a3f2;
+  --el-color-primary-light-7: #cac8f7;
+  --el-color-primary-light-8: #dcdafa;
+  --el-color-primary-light-9: var(--wb-accent-selected);
+  --el-color-primary-dark-2: var(--wb-accent-hover);
+  --el-color-success: var(--wb-success);
+  --el-color-success-light-9: var(--wb-success-soft);
+  --el-color-warning: var(--wb-warning);
+  --el-color-warning-light-9: var(--wb-warning-soft);
+  --el-color-danger: var(--wb-danger);
+  --el-color-danger-light-9: var(--wb-danger-soft);
+  --el-color-error: var(--wb-danger);
+  --el-color-error-light-9: var(--wb-danger-soft);
+  --el-color-info: var(--wb-text-muted);
+  --el-color-info-light-9: var(--wb-surface-muted);
+  --el-text-color-primary: var(--wb-text-primary);
+  --el-text-color-regular: var(--wb-text-secondary);
+  --el-text-color-secondary: var(--wb-text-muted);
+  --el-text-color-placeholder: var(--wb-text-placeholder);
+  --el-text-color-disabled: var(--wb-text-disabled);
+  --el-border-color: var(--wb-line-strong);
+  --el-border-color-light: var(--wb-line);
+  --el-border-color-lighter: var(--wb-line-soft);
+  --el-border-color-extra-light: var(--wb-line-soft);
+  --el-fill-color: var(--wb-surface-muted);
+  --el-fill-color-light: var(--wb-surface-subtle);
+  --el-fill-color-lighter: var(--wb-surface-hover);
+  --el-fill-color-extra-light: var(--wb-sidebar);
+  --el-fill-color-dark: var(--wb-line);
+  --el-fill-color-darker: var(--wb-line-strong);
+  --el-fill-color-blank: var(--wb-surface);
+  --el-bg-color: var(--wb-surface);
+  --el-bg-color-page: var(--wb-page);
+  --el-bg-color-overlay: var(--wb-surface);
+  --el-disabled-bg-color: var(--wb-surface-subtle);
+  --el-disabled-text-color: var(--wb-text-disabled);
+  --el-disabled-border-color: var(--wb-line);
+  --el-mask-color: #18181b99;
+  --el-overlay-color: #18181bcc;
+  --el-overlay-color-light: var(--wb-overlay);
+  --el-overlay-color-lighter: #18181b80;
+  --el-box-shadow-light: 0 4px 20px #18181b14;
+}
+.pv-app .wb-avatar.blue {color:var(--wb-link);}
+.pv-app .pv-mini-stats strong,.pv-app .pv-metric-grid article>strong,.pv-app .pv-rating-number,.pv-app .pv-ticket-summary strong {color:var(--wb-text-primary);}
+.pv-reply-dialog .trace-detail .node-button,.pv-reply-dialog .trace-detail pre {color:var(--wb-text-primary);}
+.pv-reply-dialog .trace-detail .flow-scroll text {fill:var(--wb-text-primary);}
+.pv-reply-dialog .trace-detail .flow-scroll text[font-size="12"] {fill:var(--wb-text-muted);}
+.pv-reply-dialog .trace-detail p.failure {color:var(--wb-danger);}
+.pv-validity-help {color:#fff;}

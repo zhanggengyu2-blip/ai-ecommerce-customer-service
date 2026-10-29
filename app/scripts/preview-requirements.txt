@@ -1,0 +1,3 @@
+-r ../backend/requirements.txt
+# Use the SQLAlchemy 2.0 series for this local preview.
+SQLAlchemy>=2.0,<2.1

@@ -1,0 +1,19 @@
+{
+  "candidate_files": 285,
+  "total_bytes": 8515343,
+  "known_credentials_checked": 8,
+  "forbidden_paths": [],
+  "credential_findings": [],
+  "files_over_5MiB": [],
+  "required_files_present": {
+    "README.md": true,
+    ".gitignore": true,
+    "THIRD_PARTY_NOTICES.md": true,
+    "app/LICENSE": true,
+    "app/.env.example": true,
+    "app/backend/requirements.lock.txt": true,
+    "app/frontend/pnpm-lock.yaml": true,
+    "app/backend/migrations/versions/20261021_03_model_knowledge_and_generation.py": true
+  },
+  "scope": "first-push candidates under repository ignore rules; no remote action"
+}

@@ -1,0 +1,2 @@
+Foundation API: http://127.0.0.1:8002
+Local login details: <clean-source>/app/var/foundation/local-login.txt

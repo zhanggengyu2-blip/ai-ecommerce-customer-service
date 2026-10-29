@@ -1,0 +1,71 @@
+# Reference checkouts, their nested repositories, credentials and downloaded models.
+/reference/
+/LOCAL_RUN.md
+/start-helppilot.command
+
+# Machine-local configuration. Only sanitized templates belong in source control.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.key
+*.pem
+*.p12
+*.pfx
+local-access.json
+local-login.txt
+.aws/
+.codex/
+.agents/
+
+# Runtime data, backups and logs (including rotated logs).
+var/
+logs/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.backup
+*.backup-*
+*.bak
+*.log
+*.log.*
+*.pid
+*.dump
+# Upstream dump contains historical chats and request payloads.
+# The current launcher initializes from migrations without this dump.
+/app/backend/db/*.sql
+
+# Installed dependencies, generated bundles and caches.
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.tsbuildinfo
+
+# Machine/editor files.
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Retain only the reviewed demo screenshots and validation reports.
+/output/*
+!/output/foundation-2026-10-21/
+!/output/models-knowledge-2026-10-21/
+!/output/theme-2026-10-21/
+!/output/push-preparation-2026-10-29/

@@ -1,0 +1,31 @@
+/Users/zhanggengyu/Documents/AI 电商智能客服/app/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_account_replacement_logout_and_disabled_staff (test_foundation.FoundationTests.test_account_replacement_logout_and_disabled_staff) ... ok
+test_customer_reconsults_and_stale_end_target (test_foundation.FoundationTests.test_customer_reconsults_and_stale_end_target) ... ok
+test_durable_reception_and_reopen_idempotency (test_foundation.FoundationTests.test_durable_reception_and_reopen_idempotency) ... ok
+test_guest_scope_and_proof (test_foundation.FoundationTests.test_guest_scope_and_proof) ... ok
+test_messages_and_customer_entrances_are_paginated (test_foundation.FoundationTests.test_messages_and_customer_entrances_are_paginated) ... ok
+test_migration_is_versioned_and_preserves_data (test_foundation.FoundationTests.test_migration_is_versioned_and_preserves_data) ... ok
+test_simultaneous_duplicate_message_and_reopen (test_foundation.FoundationTests.test_simultaneous_duplicate_message_and_reopen) ... ok
+test_stale_epoch_expired_heartbeat_and_corrupt_pointer_are_rejected (test_foundation.FoundationTests.test_stale_epoch_expired_heartbeat_and_corrupt_pointer_are_rejected) ... ok
+test_tenant_scoping_and_legacy_routes_disabled (test_foundation.FoundationTests.test_tenant_scoping_and_legacy_routes_disabled) ... ok
+test_two_staff_can_only_claim_once (test_foundation.FoundationTests.test_two_staff_can_only_claim_once) ... ok
+test_frozen_legacy_rows_survive_and_unmapped_store_cannot_start (test_foundation.LegacyMigrationTests.test_frozen_legacy_rows_survive_and_unmapped_store_cannot_start) ... ok
+test_matching_columns_with_changed_type_are_not_silently_adopted (test_foundation.LegacyMigrationTests.test_matching_columns_with_changed_type_are_not_silently_adopted) ... ok
+test_dates_restore_scope_upload_and_retrieval_validation (test_models_knowledge.ModelsKnowledgeTests.test_dates_restore_scope_upload_and_retrieval_validation) ... ok
+test_expired_worker_lease_and_summary_usage_exclusion (test_models_knowledge.ModelsKnowledgeTests.test_expired_worker_lease_and_summary_usage_exclusion) ... ok
+test_failed_publication_and_failed_vector_change_preserve_usable_data (test_models_knowledge.ModelsKnowledgeTests.test_failed_publication_and_failed_vector_change_preserve_usable_data) ... ok
+test_human_claim_during_model_call_discards_late_answer (test_models_knowledge.ModelsKnowledgeTests.test_human_claim_during_model_call_discards_late_answer) ... ok
+test_invalid_vectors_and_missing_scores_are_rejected (test_models_knowledge.ModelsKnowledgeTests.test_invalid_vectors_and_missing_scores_are_rejected) ... ok
+test_keys_encrypted_scoped_redacted_and_provider_change_requires_key (test_models_knowledge.ModelsKnowledgeTests.test_keys_encrypted_scoped_redacted_and_provider_change_requires_key) ... ok
+test_knowledge_disabled_during_generation_cannot_be_cited (test_models_knowledge.ModelsKnowledgeTests.test_knowledge_disabled_during_generation_cannot_be_cited) ... ok
+test_low_rerank_score_does_not_bypass_threshold (test_models_knowledge.ModelsKnowledgeTests.test_low_rerank_score_does_not_bypass_threshold) ... ok
+test_missing_trace_storage_is_not_reported_as_complete_zero_usage (test_models_knowledge.ModelsKnowledgeTests.test_missing_trace_storage_is_not_reported_as_complete_zero_usage) ... ok
+test_newer_question_and_policy_disable_fence_old_result (test_models_knowledge.ModelsKnowledgeTests.test_newer_question_and_policy_disable_fence_old_result) ... ok
+test_publish_recall_auto_reply_and_test_usage_are_separate (test_models_knowledge.ModelsKnowledgeTests.test_publish_recall_auto_reply_and_test_usage_are_separate) ... ok
+test_vector_switch_is_atomic_and_recovers_concurrent_publication (test_models_knowledge.ModelsKnowledgeTests.test_vector_switch_is_atomic_and_recovers_concurrent_publication) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 8.940s
+
+OK

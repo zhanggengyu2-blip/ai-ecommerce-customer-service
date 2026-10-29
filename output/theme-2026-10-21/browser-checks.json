@@ -1,0 +1,296 @@
+{
+  "desktop": [
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/support/workbench",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "会话工作台"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/support/todos",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "待办事项"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/support/history",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "历史会话记录"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/commerce/customers",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "客户管理"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/commerce/products",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "商品管理"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/commerce/orders",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "订单管理"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/commerce/payments",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "支付记录"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/commerce/shipments",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "物流管理"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/commerce/refunds",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "退款售后"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/commerce/inventory",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "库存流水"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/knowledge/models",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "AI 模型配置"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/knowledge/categories",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "知识库"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/knowledge/documents",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "客服知识"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/knowledge/chunks",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "知识切片"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/knowledge/recall",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "召回测试"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/knowledge/prompts",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "Prompt 模板"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/analysis/dashboard",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "数据分析"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/analysis/traces",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "回复路由记录"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/analysis/feedback",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "回答反馈"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/analysis/followups",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "待跟进问题"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/settings/shop",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "平台设置"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/settings/accounts",
+      "sidebar": "rgb(250, 250, 251)",
+      "table": "rgb(247, 247, 249)",
+      "title": "平台设置"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "route": "#/settings/rules",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "平台设置"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/settings/greeting",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "平台设置"
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "overflow": false,
+      "primary": "rgb(79, 70, 229)",
+      "route": "#/settings/retrieval",
+      "sidebar": "rgb(250, 250, 251)",
+      "title": "平台设置"
+    }
+  ],
+  "responsive": [
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/support/workbench",
+      "width": 977
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/support/todos",
+      "width": 977
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/knowledge/models",
+      "width": 977
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/knowledge/prompts",
+      "width": 977
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/analysis/traces",
+      "width": 977
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/settings/retrieval",
+      "width": 977
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/support/workbench",
+      "width": 390
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/support/todos",
+      "width": 390
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/knowledge/models",
+      "width": 390
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/knowledge/prompts",
+      "width": 390
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/analysis/traces",
+      "width": 390
+    },
+    {
+      "canvas": "rgb(245, 245, 247)",
+      "menu": true,
+      "overflow": false,
+      "route": "#/settings/retrieval",
+      "width": 390
+    }
+  ],
+  "afterComponentFix": {
+    "tooltipDisplayed": true,
+    "traceNodes": 5,
+    "warnings": []
+  }
+}

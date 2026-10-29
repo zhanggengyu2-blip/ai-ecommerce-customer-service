@@ -1,0 +1,15 @@
+test_account_replacement_logout_and_disabled_staff (test_foundation.FoundationTests.test_account_replacement_logout_and_disabled_staff) ... ok
+test_customer_reconsults_and_stale_end_target (test_foundation.FoundationTests.test_customer_reconsults_and_stale_end_target) ... ok
+test_durable_reception_and_reopen_idempotency (test_foundation.FoundationTests.test_durable_reception_and_reopen_idempotency) ... ok
+test_guest_scope_and_proof (test_foundation.FoundationTests.test_guest_scope_and_proof) ... ok
+test_messages_and_customer_entrances_are_paginated (test_foundation.FoundationTests.test_messages_and_customer_entrances_are_paginated) ... ok
+test_migration_is_versioned_and_preserves_data (test_foundation.FoundationTests.test_migration_is_versioned_and_preserves_data) ... ok
+test_simultaneous_duplicate_message_and_reopen (test_foundation.FoundationTests.test_simultaneous_duplicate_message_and_reopen) ... ok
+test_stale_epoch_expired_heartbeat_and_corrupt_pointer_are_rejected (test_foundation.FoundationTests.test_stale_epoch_expired_heartbeat_and_corrupt_pointer_are_rejected) ... ok
+test_tenant_scoping_and_legacy_routes_disabled (test_foundation.FoundationTests.test_tenant_scoping_and_legacy_routes_disabled) ... ok
+test_two_staff_can_only_claim_once (test_foundation.FoundationTests.test_two_staff_can_only_claim_once) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 14.850s
+
+OK
